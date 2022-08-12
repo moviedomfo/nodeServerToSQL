@@ -1,0 +1,26 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Primer server Api Rest Pelsoft",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "restart": "node src/server.js",
+    "dev": "nodemon --exec npm run  restart"
+  },
+  "author": "marcelo.oviedo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "latest",
+    "msnodesqlv8": "^2.6.0",
+    "mssql": "^9.0.0",
+    "promise": "^7.1.1",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
