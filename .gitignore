@@ -1,1 +1,15 @@
-debug.log
+node_modules/
+bin/
+obj/
+tools/
+packages/
+angular-ng-table-Test/
+*.suo
+nodejs/angular-global-error-handling-master/package-lock.json
+nodejs/javascriptPruebas/package-lock.json
+dist/
+node_modules/
+*_logs.txt
+
+nodejs/Express/node-server/.env
+nodejs/Express/node-server/src/Settings.dev.js
