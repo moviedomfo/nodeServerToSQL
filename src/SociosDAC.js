@@ -9,7 +9,7 @@ const {cnnString,cnnstandarString} = require('./Settings');
 
 //Ejecuta un query string
  getPersons = ()=> {
-    console.log(cnnString );
+    
         return new Promise(function (resolve, reject) {
 
             const cnn = new sql.Connection(cnnString);
@@ -22,7 +22,7 @@ const {cnnString,cnnstandarString} = require('./Settings');
 
                     resolve(recordset);
                 }).catch(err => {
-                    reject(new Error('Error en dac' + err.message));
+                    reject(new Error('Error en tabla persona' + err.message));
                 });
 
             }).catch(function (err) {

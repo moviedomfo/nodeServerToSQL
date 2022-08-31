@@ -14,7 +14,8 @@ dotenv.config();
 }
 
 
-const cnnstandarString = `Data Source=${cnnString.server};User Id=${cnnString.user};Password=${cnnString.password};Initial Catalog=${cnnString.database};Persist Security Info = True;`
+const cnnstandarString = `Data Source=${cnnString.server};
+User Id=${cnnString.user};Password=${cnnString.password};Initial Catalog=${cnnString.database};Persist Security Info = True;`
 
 
 module.exports.cnnString = cnnString;
